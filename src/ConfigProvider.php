@@ -24,6 +24,8 @@ class ConfigProvider
                 \ArcherZdip\ScoutElastic\Command\ElasticIndexUpdateCommand::class,
                 \ArcherZdip\ScoutElastic\Command\IndexConfiguratorMakeCommand::class,
                 \ArcherZdip\ScoutElastic\Command\SearchRuleMakeCommand::class,
+                \ArcherZdip\ScoutElastic\Command\ElasticImportCommand::class,
+                \ArcherZdip\ScoutElastic\Command\SearchableModelMakeCommand::class,
             ],
             'listeners'    => [],
             'publish'      => [
