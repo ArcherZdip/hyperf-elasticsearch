@@ -1,6 +1,12 @@
 # Hyperf Elasticsearch Driver
 根据 [babenkoivan/scout-elasticsearch-driver](https://github.com/babenkoivan/scout-elasticsearch-driver) 改造的基于Hyperf框架的ElasticSearch组件。
 
+---
+[![GitHub issues](https://img.shields.io/github/issues/ArcherZdip/hyperf-elasticsearch?style=plastic)](https://github.com/ArcherZdip/hyperf-elasticsearch/issues)
+[![GitHub forks](https://img.shields.io/github/forks/ArcherZdip/hyperf-elasticsearch?style=plastic)](https://github.com/ArcherZdip/hyperf-elasticsearch/network)
+[![GitHub stars](https://img.shields.io/github/stars/ArcherZdip/hyperf-elasticsearch?style=plastic)](https://github.com/ArcherZdip/hyperf-elasticsearch/stargazers)
+
+
 ## Requirements
 - PHP version >=7.2.0
 - Hyperf Framework version >=1.0 <2.0
