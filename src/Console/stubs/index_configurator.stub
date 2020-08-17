@@ -1,0 +1,18 @@
+<?php
+
+namespace %NAMESPACE%;
+
+use ArcherZdip\ScoutElastic\IndexConfigurator;
+use ArcherZdip\ScoutElastic\Traits\Migratable;
+
+class %CLASS% extends IndexConfigurator
+{
+    use Migratable;
+
+    /**
+     * @var array
+     */
+    protected $settings = [
+        //
+    ];
+}

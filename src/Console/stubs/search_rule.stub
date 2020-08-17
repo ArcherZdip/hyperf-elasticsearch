@@ -1,0 +1,24 @@
+<?php
+
+namespace %NAMESPACE%;
+
+use ArcherZdip\ScoutElastic\SearchRule;
+
+class %CLASS% extends SearchRule
+{
+    /**
+     * @inheritdoc
+     */
+    public function buildHighlightPayload()
+    {
+        //
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function buildQueryPayload()
+    {
+        //
+    }
+}

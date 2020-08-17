@@ -1,0 +1,62 @@
+<?php
+
+declare(strict_types=1);
+
+namespace %NAMESPACE%;
+
+use App\ElasticSearchRule\%CLASS%SearchRule;
+use ArcherZdip\ScoutElastic\Traits\Searchable;
+use App\ElasticIndexConfigurator\%CLASS%IndexConfigurator;
+%USES%
+
+class %CLASS% extends %INHERITANCE%
+{
+    use Searchable;
+
+    /**
+     * @var string
+     */
+    protected $indexConfigurator = %CLASS%IndexConfigurator::class;
+
+    /**
+     * @var array
+     */
+    protected $searchRules = [
+        %CLASS%SearchRule::class
+    ];
+
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = '%TABLE%';
+
+    /**
+     * The connection name for the model.
+     *
+     * @var string
+     */
+    protected $connection = '%CONNECTION%';
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [];
+
+    /**
+     * The attributes that should be cast to native types.
+     *
+     * @var array
+     */
+    protected $casts = [];
+
+    /**
+     * @var array
+     */
+    protected $mapping = [
+        //
+    ];
+}

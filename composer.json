@@ -1,0 +1,36 @@
+{
+    "name": "archerzdip/hyperf-elasticsearch",
+    "description": "The Elasticsearch Driver for Hyperf Scout",
+    "keywords": [
+        "elastic",
+        "elasticsearch",
+        "driver",
+        "engine",
+        "hyperf",
+        "scout",
+        "search"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhanglingyu",
+            "email": "archerzdip@yeah.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "hyperf/elasticsearch": "~1.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArcherZdip\\ScoutElastic\\": "src/",
+            "ArcherZdip\\ScoutElastic\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "hyperf": {
+            "config": "ArcherZdip\\ScoutElastic\\ConfigProvider"
+        }
+    }
+}
