@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ArcherZdip\ScoutElastic\Command;
+namespace ArcherZdip\ScoutElastic\Console;
 
 use Exception;
 use LogicException;
