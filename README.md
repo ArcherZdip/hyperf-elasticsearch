@@ -20,7 +20,7 @@ composer require archerzdip/hyperf-elasticsearch
 ## Configuration
 > 发布配置文件
 ```shell
-php bin/hyperf vendor:publish archerzdip/hyperf-elasticsearch
+php bin/hyperf.php vendor:publish archerzdip/hyperf-elasticsearch
 ```
 * 配置文件在config/autoload/scout_elastic.php， 配置参数如下： *
 
