@@ -9,7 +9,7 @@
 
 ## Requirements
 - PHP version >=7.2.0
-- Hyperf Framework version >=1.0 <2.0
+- Hyperf Framework version >2.0
 - Elasticsearch version >=7
 
 ## Installation
