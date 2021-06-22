@@ -23,7 +23,7 @@ return [
         ],
         // 是否自动更新 mapping
         'update_mapping'   => env('SCOUT_HYPERF_ELASTIC_UPDATE_MAPPING', true),
-        // 索引方式
+        // 索引方式 single 和 bulk
         'indexer'          => env('SCOUT_HYPERF_ELASTIC_INDEXER', 'single'),
         // 可用选：false (默认)、true 、wait_for
         'document_refresh' => env('SCOUT_HYPERF_ELASTIC_DOCUMENT_REFRESH', false),
