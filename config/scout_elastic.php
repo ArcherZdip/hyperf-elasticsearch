@@ -16,6 +16,8 @@ return [
         ],
         // 最大连接数
         'max_connections'  => 500,
+        // 超时时间
+        'timeout'          => env('SCOUT_HYPERF_ELASTIC_TIMEOUT', 10),
         // 批量处理的块数量
         'chunk'            => [
             'searchable'   => 500,

@@ -55,6 +55,11 @@ class Config
         return $this->getValue('document_refresh');
     }
 
+    public function timeout()
+    {
+        return $this->getValue('timeout');
+    }
+
     protected function getConfig()
     {
         return config('scout_elastic');

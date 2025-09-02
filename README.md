@@ -31,6 +31,7 @@ php bin/hyperf.php vendor:publish archerzdip/hyperf-elasticsearch
 | prefix | 前缀 |
 | client.host | ElasticSearch client, default `localhost:9200`.如果存在密码: `user:password@host:port`|
 | max_connections | 最大连接数，默认500 |
+| timeout | 超时时间，默认10s |
 | indexer | 索引方式,目前支持`single`和`bulk`|
 | chunk.searchable | 批量处理的搜索块数量 |
 | chuck.unsearchable | 批量处理的搜索块数量 |

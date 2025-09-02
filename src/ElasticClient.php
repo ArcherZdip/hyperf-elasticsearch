@@ -36,6 +36,7 @@ class ElasticClient
             $handler = make(PoolHandler::class, [
                 'option' => [
                     'max_connections' => self::$config->maxConnections() ?: 1,
+                    'timeout' => self::$config->timeout() ?: 10,
                 ],
             ]);
             $builder->setHandler($handler);
